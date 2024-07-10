@@ -1,0 +1,54 @@
+body{
+   width: 100%;
+   margin: 0;
+}
+.container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    border: 2px solid black;
+    width: 800px;
+}
+.container h2{
+    padding: 10px;
+    font-size: 20px;
+}
+.box{
+    background-color: rgb(219, 215, 215);
+    margin: auto 20px 30px;
+    border: 1px solid darkgrey;
+}
+.box h2{
+ padding: 30px 10px 10px 20px;   
+}
+.box p{
+    text-wrap:balanced;
+    padding: 0px 20px 20px 20px;
+}
+.forms{
+    background-color: whitesmoke;
+    padding: 20px 20px 0px 20px;
+}
+.forms input{
+    width: 700px;
+    height: 10px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px;
+}
+.forms input[type="checkbox"]{
+    width: 10px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px;
+}
+button{
+    width: 700px;
+    margin: 20px;
+    /* height: 20px; */
+    padding: 5px;
+    background-color: green;
+}
+button:hover{
+    scale:1.05;
+    cursor: pointer;
+}
